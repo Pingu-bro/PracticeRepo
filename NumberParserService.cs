@@ -22,10 +22,7 @@ namespace Designway
                     TextFileService textFileService = new TextFileService(path);
                     textFileService.CreateOutput(n);
                     return;
-                //case "XML":
-                //    return new XmlPersistence(filePath);
-                //case "JSON":
-                //    return new JsonPersistence(filePath);
+               
                 default:
                     throw new ArgumentException("Invalid format");
             }

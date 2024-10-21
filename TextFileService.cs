@@ -12,6 +12,7 @@ namespace Designway
 
         public TextFileService()
         {
+
         }
 
         public TextFileService(string filePath)

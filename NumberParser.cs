@@ -14,12 +14,7 @@ namespace Designway
         }
        public  static void Main(string[] args)
         {
-            //if (args.Length != 2)
-            //{
-            //    Console.WriteLine("Usage: NumberParser <comma-delimited-numbers> <format>");
-            //    return;
-            //}
-
+           
             string numbersString = "23,12,44,11";//args[0];
             string format = "Text"; //args[1];
 

@@ -9,5 +9,6 @@ namespace Designway
     public interface INumberParserService
     {
         void CreateOutput(string format, int[]numbers);
+
     }
 }

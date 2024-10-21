@@ -9,5 +9,6 @@ namespace Designway
     public interface IOutPut
     {
         public void CreateOutput(int[] numbers);
+
     }
 }
