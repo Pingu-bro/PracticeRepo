@@ -22,7 +22,8 @@ namespace Designway
                     TextFileService textFileService = new TextFileService(path);
                     textFileService.CreateOutput(n);
                     return;
-               
+                case "Number":
+                    break;
                 default:
                     throw new ArgumentException("Invalid format");
             }
